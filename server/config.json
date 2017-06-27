@@ -1,0 +1,8 @@
+{
+	"connectionString" : "localhost/test",
+	"hasModel":true,
+	"name":"server",
+	"version":"0.0.1",
+	"port":1300,
+	"retries": 2
+}

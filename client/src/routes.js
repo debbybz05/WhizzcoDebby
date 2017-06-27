@@ -1,5 +1,6 @@
-import React from 'react'
-import { IndexRoute, Route } from 'react-router'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { IndexRoute, Route } from 'react-router';
 import App from './components/App';
 import Dashboard from './components/Dashboard';
 import Websites from './components/Websites';

@@ -1,11 +1,16 @@
 import { combineReducers } from 'redux';
-//import category from './category';
-
+import toolBar from './toolBar';
+import dashboard from './dashboard';
+import websites from './websites';
+import website from './website';
 import { routerReducer } from 'react-router-redux'
 import { reducer as formReducer } from 'redux-form'
 
 const Reducer = combineReducers({
-	//category,
+	toolBar,
+	dashboard,
+	websites,
+	website,
 	routing: routerReducer,
     form: formReducer 
 });
